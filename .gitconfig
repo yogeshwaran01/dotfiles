@@ -1,0 +1,12 @@
+[user]
+	email = yogeshin247@gmail.com
+	name = YOGESHWARAN R
+	signingkey = A43D3BDEF049D20D
+[commit]
+	gpgsign = true
+[filesystem "Oracle Corporation|16.0.1|/dev/sda8"]
+	timestampResolution = 9797 nanoseconds
+	minRacyThreshold = 7799 microseconds
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
