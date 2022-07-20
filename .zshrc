@@ -76,7 +76,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting python vscode heroku history web-search)
+plugins=(git zsh-syntax-highlighting python vscode heroku history web-search colored-man-pages colorize command-not-found)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -159,6 +159,10 @@ alias ts=ts-node
 
 export PIPENV_VENV_IN_PROJECT="enabled"
 
+export EDITOR="code"
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias dotfiles='/usr/bin/git --git-dir=/home/rsyt/.dotfiles/ --work-tree=/home/rsyt'
+alias cat='batcat'
+alias ls="exa --icons"
+alias trash="gio trash"
