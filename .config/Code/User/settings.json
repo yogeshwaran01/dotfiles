@@ -1,0 +1,160 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Caskaydiacove NF",
+    "editor.bracketPairColorization.enabled": true,
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.ignoredRepositories": [
+        ".vscode",
+        "venv",
+        "node_modules"
+    ],
+    "workbench.startupEditor": "none",
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "diffEditor.codeLens": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontFamily": "Caskaydiacove NF",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.pyc": "default"
+    },
+    "editor.wordWrap": "on",
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Pylance",
+    "files.autoSave": "off",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.minimap.enabled": true,
+    "workbench.statusBar.visible": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "workbench.editor.enablePreview": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.autoDetectHighContrast": false,
+    "editor.tokenColorCustomizations": {
+        "comments": "#5ebc09",
+    },
+    "workbench.view.alwaysShowHeaderActions": true,
+    "breadcrumbs.enabled": true,
+    "workbench.editor.decorations.colors": true,
+    "workbench.editor.decorations.badges": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.terminal.copySelection",
+        "workbench.action.terminal.paste",
+    ],
+    "editor.lineNumbers": "on",
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "editor.renderWhitespace": "all",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "telemetry.telemetryLevel": "off",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.pytest_cache": true,
+        "**/.settings": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.autoClosingBrackets": "always",
+    "workbench.editor.untitled.hint": "hidden",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.defaultInterpreterPath": "/usr/bin/python3.10",
+    "liveServer.settings.donotVerifyTags": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.customGlyphs": true,
+    "terminal.integrated.fontSize": 14,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "python.analysis.autoImportCompletions": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "javascript": true,
+        "typescript": false,
+        "python": false
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "gitlens.defaultTimeFormat": null,
+    "editor.cursorStyle": "line",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+    "workbench.settings.editor": "json",
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.autoReplies": {
+        "Terminate batch job (Y/N)": "Y\r"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "workbench.colorCustomizations": {
+        "terminal.background": "#000000",
+        "terminal.foreground": "#00FF00",
+    },
+    "editor.linkedEditing": true,
+    "workbench.colorTheme": "GitHub Dark",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "window.menuBarVisibility": "compact",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "window.commandCenter": true
+}
